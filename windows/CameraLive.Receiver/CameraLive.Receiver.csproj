@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>CameraLiveProReceiver</AssemblyName>
+    <RootNamespace>CameraLive.Receiver</RootNamespace>
+    <Version>0.1.0</Version>
+    <Product>Camera Live Pro Receiver</Product>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../shared/CameraLive.Protocol/CameraLive.Protocol.csproj" />
+  </ItemGroup>
+</Project>
